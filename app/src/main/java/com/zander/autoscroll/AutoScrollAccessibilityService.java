@@ -14,7 +14,7 @@ import androidx.annotation.RequiresApi;
  * Created by finup_zander on 2019-11-18.
  */
 public class AutoScrollAccessibilityService extends BaseAccessibilityService {
-    private long timeSplite = 15 * 1000;
+    private long timeSplite = 6 * 1000;
     private long lastTime;
     @RequiresApi(api = VERSION_CODES.N)
     @Override
